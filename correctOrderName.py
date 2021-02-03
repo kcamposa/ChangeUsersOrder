@@ -27,7 +27,7 @@ def ChangeOrderRow(): # 3 --- change the names order
         if n != None:
             ultraSplit = " ".join(n.split()) # delete double spaces
             splitName = ultraSplit.split( ' ' )
-            if len(splitName) == 4: # if the name has 4 letter 
+            if len(splitName) == 4:
                 LoadNewNames( splitName[2].capitalize() + ' ' + splitName[3].capitalize()  + ' ' + splitName[0].capitalize()  + ' ' + splitName[1].capitalize() )
             elif len(splitName) == 3:
                 LoadNewNames( splitName[2].capitalize() + ' ' + splitName[0].capitalize()  + ' ' + splitName[1].capitalize() )
