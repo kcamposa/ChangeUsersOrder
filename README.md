@@ -1,3 +1,5 @@
-# *************  ChangeUsersOrder ***************
-# Simple script, in case the a excel file has a column with names in disorder, for example "MENDOZA  DUARTE ALEXANDER ANTONIO" this script will show the correct way "Alexander Antonio Mendoza Duarte".
-# 
+#   ChangeUsersOrder 
+
+### Descripción: 
+Script sencillo en caso que un archivo de Excel tenga una columna con nombres desordenados, por ejemplo "MENDOZA DUARTE ALEXANDER ANTONIO" este script mostrará la forma correcta "Alexander Antonio Mendoza Duarte".
+
